@@ -4,9 +4,10 @@ public class SomeOtherClass {
 
     private long unusedGlobalVariable;
 
-    private void unusedPrivateMethod() {
+    private String unusedPrivateMethod() {
         String unusedLocalVariable = "unused";
         String usedLocalVariable = this.usedGlobalVariable;
+        return usedLocalVariable;
     }
 
 }
